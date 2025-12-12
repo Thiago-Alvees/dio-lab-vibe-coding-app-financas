@@ -119,6 +119,9 @@ Telas do MVP
 <img width="1423" height="938" alt="image" src="https://github.com/user-attachments/assets/542ac127-fb2a-42fa-bd0c-8e27072b10db" />
 <img width="1503" height="936" alt="image" src="https://github.com/user-attachments/assets/07a4d3f7-08f8-4a4a-bc91-937b25dda4bc" />
 ## Link do projeto publicado, explore o quanto desejar!
+> [!IMPORTANT]
+> **Este projeto é apenas para estudo**! Caso você **decida seguir as "recomendações**, saiba que é por sua conta em risco!
+
 https://preview--fii-finder-plus.lovable.app/
  
 ## 💬 Conclusão
