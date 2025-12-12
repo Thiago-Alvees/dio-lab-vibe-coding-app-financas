@@ -1,6 +1,3 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
-
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
 ## ✨ O que é Vibe Coding
 
@@ -10,80 +7,123 @@ Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas com
 
 ## 🎯 Desafio
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
-
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+O desafio é criar o conceito do seu próprio App de Finanças com IA, aplicando o jeito Vibe de programar, guiando ferramentas como o Copilot e o Lovable com prompts claros e criativos. Transforme suas ideias em um projeto real e construa um portfólio que destaque suas habilidades para o mercado!
 
 > [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+> **Não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
 
 ## 🪄 Etapas do Desafio
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+### 1. Criação do PRD (Product Requirements Document)
 
 Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
 
 Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+PRD – Aplicativo de Recomendação de Ações e FIIs
+Título do Projeto: Aplicativo de análise de Ações e FIIs
+Descrição:
+Quero criar um aplicativo que ajude iniciantes a decidir em quais ações ou fundos imobiliários investir. O app deve mostrar se o preço está atrativo e calcular indicadores financeiros básicos (P/L, P/VP e Dividend Yield). Além disso, deve permitir salvar favoritos e exibir uma lista com as Top 5 recomendações.
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+Objetivo
+Facilitar a tomada de decisão de investimento para iniciantes, com recomendações automáticas e linguagem simples.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Público-Alvo
+• 	Pessoas que querem começar a investir sem complicação.
+• 	Iniciantes no mercado financeiro.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+Funcionalidades do MVP
+1. 	Pesquisar ativos (ações e FIIs) pelo código.
+2. 	Classificação automática com base nos cálculos:
+• 	P/L (Preço/Lucro) = Preço ÷ Lucro por ação.
+• 	P/VP (Preço/Valor Patrimonial) = Preço ÷ Valor Patrimonial por ação.
+• 	Dividend Yield = Dividendos ÷ Preço × 100.
+3. 	Favoritos: salvar ativos preferidos.
+4. 	Top 5 recomendações: lista dos ativos mais atrativos.
+5. 	Visualização simples de gráficos para tendência de preço.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+Fórmulas de Cálculo
+• 	P/L = Preço ÷ Lucro por ação.
+• 	P/VP = Preço ÷ Valor Patrimonial por ação.
+• 	Dividend Yield = Dividendos ÷ Preço × 100.
+Para FIIs:
+• 	P/VP = Preço da cota ÷ Valor Patrimonial por cota.
+• 	Dividend Yield = Dividendos ÷ Preço da cota × 100.
+
+Recursos Técnicos (gratuitos)
+• 	API de dados financeiros: Yahoo Finance API ou Alpha Vantage.
+• 	Banco de dados: Firebase ou Supabase.
+• 	Front-end: React Native (mobile) ou Flutter.
+• 	Back-end: Node.js ou Python (FastAPI).
+• 	Hospedagem: Vercel ou Netlify.
+
+Telas do MVP
+• 	Tela de Pesquisa: campo de busca + resultado com preço atual e indicadores.
+• 	Tela de Classificação: mostra P/L, P/VP e Dividend Yield com cores (verde = atrativo, amarelo = neutro, vermelho = caro).
+• 	Tela de Favoritos: lista personalizada.
+• 	Tela de Top 5: ranking dos ativos mais atrativos.
+• 	Tela de Gráficos: tendência de preço simplificada.
+
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
-
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
-
-### 2. Explorando o Lovable na Prática
+### 2. Prompts utilizados no Lovable
 
 Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
 - Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
 - Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+```txt
+Quero criar um aplicativo que ajude iniciantes a decidir em quais ações ou fundos imobiliários investir. O app deve mostrar se o preço está atrativo e calcular indicadores financeiros básicos (P/L, P/VP e Dividend Yield). 
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+Objetivo
+Facilitar a tomada de decisão de investimento para iniciantes, com recomendações automáticas e linguagem simples.
 
-### 3. Entregando o Desafio na DIO
+Funcionalidades do MVP
+1. 	Pesquisar ativos (ações e FIIs) pelo código.
+2. 	Classificação automática com base nos cálculos:
+• 	P/L (Preço/Lucro) = Preço ÷ Lucro por ação.
+• 	P/VP (Preço/Valor Patrimonial) = Preço ÷ Valor Patrimonial por ação.
+• 	Dividend Yield = Dividendos ÷ Preço × 100.
+3. 	Favoritos: salvar ativos preferidos.
+4. 	Top 5 recomendações: lista dos ativos mais atrativos.
+5. 	Visualização simples de gráficos para tendência de preço.
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+Fórmulas de Cálculo
+• 	P/L = Preço ÷ Lucro por ação.
+• 	P/VP = Preço ÷ Valor Patrimonial por ação.
+• 	Dividend Yield = Dividendos ÷ Preço × 100.
+Para FIIs:
+• 	P/VP = Preço da cota ÷ Valor Patrimonial por cota.
+• 	Dividend Yield = Dividendos ÷ Preço da cota × 100.
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+Recursos Técnicos (gratuitos)
+• 	API de dados financeiros:Alpha Vantage.
+• 	Banco de dados:Supabase.
+• 	Front-end: React Native.
+• 	Back-end:Python (FastAPI).
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+Telas do MVP
+• 	Tela de Pesquisa: campo de busca + resultado com preço atual e indicadores.
+• 	Tela de Classificação: mostra P/L, P/VP e Dividend Yield com cores (verde = atrativo, amarelo = neutro, vermelho = caro).
+• 	Tela de Favoritos: lista personalizada.
+• 	Tela de Top 5: ranking dos ativos mais atrativos.
+• 	Tela de Gráficos: tendência de preço simplificada.
 
+```
+
+### 3. Resultado Final
+## Tela inicial 
+<img width="1528" height="943" alt="image" src="https://github.com/user-attachments/assets/ef4782e6-2a53-4ac6-acfb-37f711d6e726" />
+## Visão do ativo Selecionado
+<img width="1423" height="938" alt="image" src="https://github.com/user-attachments/assets/542ac127-fb2a-42fa-bd0c-8e27072b10db" />
+<img width="1503" height="936" alt="image" src="https://github.com/user-attachments/assets/07a4d3f7-08f8-4a4a-bc91-937b25dda4bc" />
+## Link do projeto publicado, explore o quanto desejar!
+https://preview--fii-finder-plus.lovable.app/
+ 
 ## 💬 Conclusão
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+Utilizar o conceito de Vibe Coding foi uma experiência bastante interessante. A ideia de simplesmente descrever o que eu precisava e ver o sistema gerar um MVP funcional é realmente incrível. Durante o desenvolvimento, consegui explorar ferramentas como o Copilot e o ChatGPT para a construção do prompt, e utilizei o Lovable para dar vida à aplicação.
+No Lovable, enfrentei alguns desafios, principalmente para verificar se todas as informações que eu havia solicitado estavam implementadas corretamente e entender por que não era possível buscar outros ativos além dos já disponibilizados inicialmente. Apesar dessas dificuldades, a experiência foi enriquecedora.
+Em resumo, aprendi que os conceitos de engenharia de prompt são fundamentais para otimizar o tempo de trabalho e alcançar resultados mais próximos do esperado. Tenho certeza de que, com prática e aprimoramento contínuo, poderei evoluir ainda mais nesse processo e seguir me desenvolvendo.
+
