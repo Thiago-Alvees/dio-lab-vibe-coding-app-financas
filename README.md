@@ -115,9 +115,11 @@ Telas do MVP
 ### 3. Resultado Final
 ## Tela inicial 
 <img width="1528" height="943" alt="image" src="https://github.com/user-attachments/assets/ef4782e6-2a53-4ac6-acfb-37f711d6e726" />
+
 ## Visão do ativo Selecionado
 <img width="1423" height="938" alt="image" src="https://github.com/user-attachments/assets/542ac127-fb2a-42fa-bd0c-8e27072b10db" />
 <img width="1503" height="936" alt="image" src="https://github.com/user-attachments/assets/07a4d3f7-08f8-4a4a-bc91-937b25dda4bc" />
+
 ## Link do projeto publicado, explore o quanto desejar!
 > [!IMPORTANT]
 > **Este projeto é apenas para estudo**! Caso você **decida seguir as "recomendações**, saiba que é por sua conta em risco!
