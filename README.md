@@ -122,7 +122,7 @@ Telas do MVP
 
 ## Link do projeto publicado, explore o quanto desejar!
 > [!IMPORTANT]
-> **Este projeto é apenas para estudo**! Caso você **decida seguir as "recomendações**, saiba que é por sua conta em risco!
+> **Este projeto é apenas para estudo**! Caso você **decida seguir as "recomendações"**, saiba que é por sua conta em risco!
 
 https://preview--fii-finder-plus.lovable.app/
  
